@@ -1,0 +1,23 @@
+Actúa como un experto en desarrollo de software en Python y diseño orientado a objetos académico. Utilizando el documento del examen de Paradigmas de Programación ("EIF400_Examen_Paradigmas_IIC2026.pdf") que ya tienes en memoria, resuelve de manera impecable, completa y rigurosa la SECCIÓN II: PROBLEMA INTEGRADOR DE ORIENTACIÓN A OBJETOS EN PYTHON (partes A, B y C) para el sistema de movilidad eléctrica "EcoMove".
+Asegúrate de cumplir estrictamente con los siguientes requerimientos técnicos y de formato:
+1. **Parte A - Diagrama de clases:** Diseña un diagrama de clases simplificado utilizando sintaxis clara (puedes usar notación UML en texto o un gráfico estructurado con Mermaid) que incluya:
+   - La clase abstracta base y al menos dos subclases concretas.
+   - Las clases Cliente, Servicio y Menu.
+   - Relaciones correctas de herencia, composición/asociación y sus cardinalidades.
+2. **Parte B - Implementación en Python:** Escribe el código fuente completo, ejecutable y bien estructurado. Debes incluir **comentarios explícitos en el código** que marquen exactamente dónde se implementa cada concepto solicitado:
+   - Abstracción (uso del módulo abc y @abstractmethod para el cálculo de costos).
+   - Herencia y polimorfismo.
+   - Encapsulamiento y ocultamiento (uso justificado de atributos públicos, protegidos con "_" y privados con "__").
+   - Propiedades con @property y sus respectivos setters con lógica de validación para al menos dos atributos.
+   - Constructores pythónicos que simulen el constructor por defecto y con parámetros mediante argumentos predeterminados.
+   - Método __str__ implementado en las clases principales.
+   - Clases Cliente, Servicio (aplicando composición) y Menu (con opciones para registrar, listar y ejecutar servicios).
+3. **Parte C - Bloque Main y Demostración:** Desarrolla el bloque `if __name__ == "__main__":` donde se instancien objetos de las clases concretas de vehículos, clientes y servicios, demostrando de forma evidente el comportamiento polimórfico al invocar `calcular_costo()` mediante una misma interfaz o colección.
+Presenta la solución de forma ordenada, separando claramente las partes A, B y C tal como lo pide el examen.
+
+
+Actúa como arquitecto de software en Python. Tomando como base el código que me acabas de dar para el sistema EcoMove (que incluye las clases Vehiculo, BicicletaElectrica, ScooterElectrico, Cliente, Servicio y Menu), indícame exactamente cómo debo organizar este código en carpetas y archivos en mi computadora. 
+Por favor, preséntalo de la siguiente forma:
+1. Un diagrama visual de la estructura de directorios y archivos (usando bloques de código o texto estructurado).
+2. Qué código exacto va dentro de cada archivo (por ejemplo, qué se queda en el módulo de modelos, qué va en el menú, y cómo deben quedar las importaciones entre archivos para que no dé errores circulares o de ruta).
+3. Cómo se debe estructurar el archivo `main.py` para importar las clases desde los módulos creados y cumplir con la Parte C del examen.
